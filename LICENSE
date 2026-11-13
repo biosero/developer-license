@@ -159,11 +159,27 @@ Licensee shall not, and shall not permit any third party to:
     technology;
 
 (j) use the Developer Materials in violation of any applicable law or
-    regulation; or
+    regulation;
 
-(k) use the Developer Materials in any manner that exceeds the scope of
+(k) use the Developer Materials, in whole or in part, to train, fine-tune,
+    evaluate, benchmark, or otherwise develop or improve any artificial
+    intelligence or machine learning model, or include them in any dataset
+    used for such purposes, or submit or provide them to any artificial
+    intelligence or machine learning service, tool, or provider that is
+    permitted to retain them beyond processing Licensee's request or to use
+    them to train or improve its models; or
+
+(l) use the Developer Materials in any manner that exceeds the scope of
     Licensee's rights under this Agreement or any applicable Biosero Product
     license.
+
+Nothing in Section 3(k) prohibits Licensee from using artificial
+intelligence coding assistants or similar tools to develop, test, and
+maintain Extensions in accordance with this Agreement, provided that the
+tool's provider does not retain the Developer Materials beyond processing
+Licensee's requests or use them to train or improve its models. Licensee is
+responsible for any use of the Developer Materials by such tools on its
+behalf as if that use were Licensee's own.
 
 4. OWNERSHIP, EXTENSIONS, AND FEEDBACK
 
