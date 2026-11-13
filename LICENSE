@@ -1,0 +1,459 @@
+BIOSERO DEVELOPER LICENSE AGREEMENT
+
+Copyright (c) Biosero, Inc. All rights reserved.
+
+This Biosero Developer License Agreement ("Agreement") is a legal agreement
+between Biosero, Inc. ("Biosero") and the company or individual accepting
+this Agreement ("Licensee"). This Agreement governs Licensee's access to and
+use of the Developer Materials. By downloading, installing, restoring,
+referencing, accessing, or using any Developer Materials, including by
+restoring a Package automatically as a dependency through a package manager
+or build tool, or by allowing any employee, contractor, or agent to do so on
+Licensee's behalf, Licensee agrees to be bound by this Agreement and
+represents and warrants that the individual accepting this Agreement has
+full authority to bind Licensee to it. If Licensee does not agree to this
+Agreement, Licensee must not download, install, restore, reference, access,
+or use the Developer Materials.
+
+If Licensee and Biosero have signed a separate written agreement that
+expressly covers the Developer Materials, such as a development, partner, or
+integration agreement, that signed agreement controls to the extent it
+conflicts with this Agreement. Otherwise, any Product Terms that apply to
+the Developer Materials control to the extent they conflict with the rest of
+this Agreement.
+
+1. DEFINITIONS
+
+"Affiliates" means, with respect to a party, any entity that directly or
+indirectly controls, is controlled by, or is under common control with that
+party, whether now or in the future, and regardless of whether such control
+is established through ownership, voting power, contract, or otherwise.
+
+"Developer Materials" means the Packages, application programming
+interfaces, interfaces, contracts, sample code, templates, tools,
+Documentation, integration guides, updates, and related materials that
+Biosero makes available for developing Extensions and that are distributed
+with or refer to this Agreement.
+
+"Packages" means the compiled libraries and other binary files included in
+the Developer Materials, including NuGet packages and the assemblies and
+other files they contain.
+
+"Biosero Product" means the Biosero software product or platform, such as
+Green Button Go or Device Manager, that Biosero designates in a Package's
+description, README, or Documentation as the product with which that Package
+and its related Developer Materials are intended to be used, together with
+related licensed software products and services designated by Biosero for
+use with it. If a Package is designated for more than one Biosero product,
+each of them is a Biosero Product for that Package.
+
+"Authorized Customer" means a person or entity that holds a then-current
+license from Biosero, or from a reseller authorized by Biosero, to use the
+applicable Biosero Product.
+
+"Product Terms" means any additional terms that Biosero publishes for a
+specific Biosero Product and identifies as supplementing this Agreement.
+Product Terms form part of this Agreement only for the Developer Materials
+designated for that Biosero Product.
+
+"Extension" means any software, integration, connector, adapter, plug-in,
+driver, exporter, script, workflow component, or other code developed by or
+for Licensee using or in conjunction with the Developer Materials for use
+with a Biosero Product.
+
+"Documentation" means Biosero's user guides, technical specifications,
+integration guides, and other documentation for the Developer Materials.
+
+"Published Documentation" means Documentation that Biosero makes publicly
+available without restriction, such as on a public website or in a public
+repository.
+
+"Public Interfaces" means the types, members, and behaviors of the Packages
+that Biosero identifies in its Published Documentation as supported for use
+by Extension authors.
+
+"Internal Feeds" has the meaning set forth in Section 2.
+
+"Confidential Information" has the meaning set forth in Section 6.
+
+"Third-Party Components" means any software, libraries, or other materials
+owned by third parties and provided with, embedded in, or used in connection
+with the Developer Materials.
+
+2. LICENSE GRANT AND SCOPE
+
+Subject to Licensee's continued compliance with this Agreement, Biosero
+grants Licensee a limited, non-exclusive, revocable, non-transferable,
+non-sublicensable, royalty-free license during the Term to download,
+install, access, and use the Developer Materials solely for Licensee's
+internal development, testing, and maintenance of Extensions that
+interoperate with the applicable Biosero Product. The Packages are provided
+free of charge in object code form only, including via the public NuGet
+Gallery (nuget.org) or other Biosero-approved delivery methods. Licensee may
+store copies of the Packages on private, access-controlled package feeds,
+proxies, caches, and build systems that are used only by Licensee and by its
+contractors acting on Licensee's behalf, including feeds and services hosted
+for Licensee by a third-party provider ("Internal Feeds"). No source code
+rights are granted unless Biosero expressly agrees otherwise in writing.
+Licensee may use the sample code, templates, and Documentation solely as
+necessary to develop, test, and support Extensions for use with the
+applicable Biosero Product and subject to the restrictions in this
+Agreement. The Developer Materials are licensed, not sold, and Biosero
+reserves all rights not expressly granted to Licensee.
+
+Licensee may use the Developer Materials solely to develop Extensions for
+the applicable Biosero Product. The Developer Materials are intended only
+for use with that Biosero Product and may not be used for standalone
+applications, unrelated products, unrelated fields of use, or any competing
+platform, service, or system. Unless expressly included in the Developer
+Materials by Biosero, the Developer Materials do not include, and this
+Agreement does not grant any rights to, any Biosero Product itself, or its
+runtime, scheduling, orchestration, execution lifecycle and recovery logic,
+device and resource coordination, clustering, data storage, safety
+enforcement, licensing and security mechanisms, or any other core platform
+components or internal architecture. Use of each Biosero Product itself is
+governed by its own license agreement.
+
+3. RESTRICTIONS
+
+Licensee shall not, and shall not permit any third party to:
+
+(a) use the Developer Materials except as expressly permitted under this
+    Agreement;
+
+(b) copy, modify, adapt, translate, or create derivative works of the
+    Developer Materials, except as expressly permitted for sample code,
+    templates, and Documentation and only to the limited extent necessary to
+    develop Extensions for the applicable Biosero Product;
+
+(c) reverse engineer, decompile, disassemble, decode, or otherwise attempt to
+    derive source code, underlying ideas, algorithms, structures, or trade
+    secrets from the Packages or any other Developer Materials, except to the
+    extent such restriction is prohibited by applicable law and then only
+    after prior written notice to Biosero;
+
+(d) use the Developer Materials or any Biosero Confidential Information to
+    infer, access, recreate, replicate, or compete with any Biosero Product
+    or any other Biosero product or service;
+
+(e) use the Developer Materials to build, enable, or support any competing
+    laboratory automation, scheduling, orchestration, or device management
+    platform, or any other offering or service that competes with a Biosero
+    Product;
+
+(f) re-implement, emulate, or circumvent any functionality, restrictions,
+    interfaces, security controls, licensing mechanisms, or technical
+    limitations of the Developer Materials or any Biosero Product;
+
+(g) distribute, sublicense, lease, rent, lend, sell, transfer, disclose,
+    publish, or otherwise make the Developer Materials available to any
+    third party, including by uploading any Package to any public package
+    feed, repository, or registry, or to any feed other than an Internal
+    Feed, except as expressly permitted under Section 2 or Section 5;
+
+(h) remove, alter, or obscure any copyright, trademark, patent, or other
+    proprietary notices;
+
+(i) white-label, rebrand, or misrepresent the Developer Materials or any
+    Biosero platform-derived functionality as Licensee's own platform
+    technology;
+
+(j) use the Developer Materials in violation of any applicable law or
+    regulation;
+
+(k) use the Developer Materials, in whole or in part, to train, fine-tune,
+    evaluate, benchmark, or otherwise develop or improve any artificial
+    intelligence or machine learning model, or include them in any dataset
+    used for such purposes, or submit or provide them to any artificial
+    intelligence or machine learning service, tool, or provider that is
+    permitted to retain them beyond processing Licensee's request or to use
+    them to train or improve its models; or
+
+(l) use the Developer Materials in any manner that exceeds the scope of
+    Licensee's rights under this Agreement or any applicable Biosero Product
+    license.
+
+Nothing in Section 3(k) prohibits Licensee from using artificial
+intelligence coding assistants or similar tools to develop, test, and
+maintain Extensions in accordance with this Agreement, provided that the
+tool's provider does not retain the Developer Materials beyond processing
+Licensee's requests or use them to train or improve its models. Licensee is
+responsible for any use of the Developer Materials by such tools on its
+behalf as if that use were Licensee's own.
+
+4. OWNERSHIP, EXTENSIONS, AND FEEDBACK
+
+As between the parties, Biosero and its licensors retain all right, title,
+and interest in and to the Developer Materials, each Biosero Product, all
+interfaces and contracts exposed by or embodied in the Packages, and all
+related intellectual property rights. Subject to Biosero's ownership rights
+in the Developer Materials, Licensee retains ownership of the Extensions it
+creates under this Agreement, and of any code Licensee develops
+independently of the Developer Materials and Biosero Confidential
+Information, even if that code is also used in an Extension.
+
+To the extent Licensee provides any suggestions, ideas, feedback,
+enhancements, modifications, fixes, or improvements relating to the
+Developer Materials, any Biosero Product, or related materials
+(collectively, "Feedback"), Licensee grants Biosero a worldwide, perpetual,
+irrevocable, non-exclusive, transferable, sublicensable, fully paid-up,
+royalty-free license to use, reproduce, modify, create derivative works of,
+distribute, display, perform, make, have made, sell, offer for sale, import,
+and otherwise exploit such Feedback for any purpose without restriction.
+Nothing in this Agreement limits Biosero's right to independently develop,
+acquire, license, market, or distribute products, services, or functionality
+that may be similar or identical to any Extension or Feedback, and Licensee
+waives any claim arising from such activity.
+
+5. DISTRIBUTION OF EXTENSIONS
+
+Licensee may distribute its Extensions only in object code form and only to
+Authorized Customers of the Biosero Product for which the Extension is
+built, provided that:
+
+(a) the portions of each Extension that use the Developer Materials operate
+    solely with that Biosero Product;
+
+(b) Licensee does not distribute the Packages or any other Developer
+    Materials, except (i) those limited runtime components, if any, that
+    Biosero expressly designates in writing as redistributable, and (ii)
+    sample code and templates, as modified by Licensee and compiled into its
+    Extension;
+
+(c) Licensee remains fully responsible for its Extensions and all support,
+    representations, warranties, liabilities, and claims relating to them;
+    and
+
+(d) Licensee imposes written terms on recipients that are at least as
+    protective of Biosero and its licensors as this Agreement with respect to
+    Biosero's software and intellectual property.
+
+Licensee may use code that it develops independently of the Developer
+Materials and Biosero Confidential Information, such as its own device
+communication logic, in other products, including products for other
+platforms, provided that no portion of the Developer Materials or Biosero
+Confidential Information is included in, or used to develop, those other
+products. No right to distribute any Extension on a standalone basis, for
+unrelated use, or for use with competing products or services is granted.
+Licensee shall not sublicense the Developer Materials. Any distribution or
+transfer not expressly permitted by this Section is void.
+
+6. CONFIDENTIALITY
+
+"Confidential Information" means any non-public materials and information
+that Biosero discloses or makes available to Licensee in connection with
+this Agreement, including pre-release or privately distributed Developer
+Materials, non-public Documentation, non-public APIs, non-public benchmark,
+test, or performance information relating to the Developer Materials or any
+Biosero Product, and other non-public technical, business, or product
+information. Developer Materials that Biosero makes publicly available,
+including publicly released Packages, Published Documentation, and Public
+Interfaces, are not Confidential Information, although they remain subject
+to Biosero's intellectual property rights and to all other terms of this
+Agreement, including the restrictions in Section 3.
+
+Licensee shall protect Biosero Confidential Information using at least the
+same degree of care it uses to protect its own similar confidential
+information, but not less than a reasonable degree of care, and shall use
+Biosero Confidential Information solely as necessary to exercise its rights
+and perform its obligations under this Agreement. Licensee shall not disclose
+Biosero Confidential Information to any third party except to its employees
+and contractors who have a need to know for the permitted purposes and who
+are bound by written confidentiality obligations at least as protective as
+those in this Agreement. Licensee shall not publish or disclose any
+benchmark, test, or performance results relating to the Developer Materials
+or any Biosero Product without Biosero's prior written consent.
+
+The obligations in this Section do not apply to information that Licensee can
+demonstrate by written records: (a) is or becomes publicly available through
+no breach of this Agreement; (b) was lawfully known to Licensee without
+restriction before disclosure by Biosero; (c) is lawfully received by
+Licensee from a third party without breach of any duty; or (d) is
+independently developed by Licensee without use of or reference to Biosero
+Confidential Information. If Licensee is required by law to disclose Biosero
+Confidential Information, Licensee shall, to the extent legally permitted,
+provide Biosero with prompt prior notice and reasonable assistance to seek
+confidential treatment or other protective measures.
+
+7. THIRD-PARTY COMPONENTS AND EXPORT COMPLIANCE
+
+The Developer Materials may include or be provided with Third-Party
+Components. Any such Third-Party Components are licensed to Licensee under
+the applicable third-party license terms accompanying those components and
+not under this Agreement, and Licensee's rights in such Third-Party
+Components are subject to those separate license terms.
+
+Licensee shall comply with all applicable export control, trade, and economic
+sanctions laws and regulations of the United States and any other applicable
+jurisdiction in connection with its access to, use of, development with,
+distribution of, and other activities relating to the Developer Materials
+and any Extensions. Without limiting the foregoing, Licensee represents and
+warrants that it is not located in, organized under the laws of, ordinarily
+resident in, or owned or controlled by any person in a country or territory
+subject to comprehensive sanctions, and is not identified on any applicable
+restricted party list. Licensee shall not export, re-export, transfer,
+release, or otherwise provide access to the Developer Materials in violation
+of applicable law.
+
+8. SUPPORT, UPDATES, AND COMPATIBILITY
+
+Biosero may, but is not obligated to, provide Documentation, examples,
+updates, patches, upgrades, maintenance releases, migration guidance, or
+other support for the Developer Materials. Biosero may change, suspend,
+discontinue, or impose limits on the Developer Materials or any feature,
+API, or functionality at any time. Biosero will use commercially reasonable
+efforts to communicate material changes through versioning, release notes,
+deprecation notices, or similar communications, but Biosero does not
+guarantee backward compatibility or uninterrupted availability of the
+Developer Materials. Licensee is responsible for testing, updating,
+supporting, and maintaining its Extensions, including any changes required
+as a result of updates to the Developer Materials or any Biosero Product.
+
+9. COMPLIANCE AND AUDIT
+
+Licensee shall comply with this Agreement and all applicable laws in
+connection with its use of the Developer Materials and development and
+distribution of Extensions. If Licensee distributes Extensions, has signed a
+separate agreement with Biosero, or has received Biosero Confidential
+Information, or if Biosero reasonably suspects a material breach, then upon
+reasonable prior notice and during normal business hours, Biosero may audit
+or otherwise verify Licensee's compliance with this Agreement, including
+Licensee's use, distribution, and handling of the Developer Materials,
+solely to confirm compliance and not more often than once annually unless
+Biosero reasonably suspects a material breach. Licensee shall cooperate
+reasonably with any such audit. If Biosero reasonably determines that
+Licensee has exceeded or violated its rights under this Agreement, Licensee
+shall promptly cure the noncompliance, if curable, cease any non-compliant
+use or distribution immediately, and, upon request, provide a written
+certification signed by an authorized officer describing the corrective
+actions taken. In the case of material noncompliance, Licensee shall
+reimburse Biosero for its reasonable costs of investigation, audit,
+remediation, and enforcement, and Biosero may suspend any access to the
+Developer Materials or Confidential Information that Biosero controls and
+exercise any other rights or remedies available under this Agreement or
+applicable law.
+
+10. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+
+THE DEVELOPER MATERIALS AND ALL RELATED MATERIALS ARE PROVIDED "AS IS" AND
+"AS AVAILABLE," WITH ALL FAULTS, AND BIOSERO AND ITS LICENSORS DISCLAIM ALL
+WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY,
+OR OTHERWISE, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, QUIET
+ENJOYMENT, AND ANY WARRANTIES ARISING FROM COURSE OF DEALING, USAGE, OR
+TRADE PRACTICE. BIOSERO DOES NOT WARRANT THAT THE DEVELOPER MATERIALS WILL
+MEET LICENSEE'S REQUIREMENTS, OPERATE WITHOUT INTERRUPTION, BE COMPATIBLE
+WITH ANY PARTICULAR HARDWARE, SOFTWARE, OR DEVICE, OR BE ERROR-FREE OR
+SECURE. LICENSEE IS SOLELY RESPONSIBLE FOR ALL EXTENSIONS IT DEVELOPS,
+DISTRIBUTES, OR USES, INCLUDING THEIR FUNCTIONALITY, SAFETY, LEGAL
+COMPLIANCE, AND RESULTS.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BIOSERO AND ITS LICENSORS
+SHALL NOT BE LIABLE FOR ANY DAMAGES, LOSSES, COSTS, OR EXPENSES OF ANY KIND
+ARISING OUT OF OR RELATING TO THIS AGREEMENT, THE DEVELOPER MATERIALS, ANY
+BIOSERO PRODUCT, OR ANY EXTENSION, INCLUDING ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR ANY
+LOSS OF PROFITS, REVENUE, DATA, SAMPLES, GOODWILL, BUSINESS INTERRUPTION, OR
+COST OF COVER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IF ANY OF
+THE FOREGOING EXCLUSIONS IS HELD UNENFORCEABLE, BIOSERO'S TOTAL CUMULATIVE
+LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE DEVELOPER
+MATERIALS SHALL NOT EXCEED ONE HUNDRED U.S. DOLLARS (US $100). THE FOREGOING
+EXCLUSIONS AND LIMITATIONS APPLY REGARDLESS OF THE THEORY OF LIABILITY AND
+EVEN IF ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE. SOME JURISDICTIONS DO NOT
+ALLOW CERTAIN DISCLAIMERS OR LIMITATIONS, SO THE ABOVE MAY APPLY ONLY TO THE
+MAXIMUM EXTENT PERMITTED BY LAW.
+
+11. INDEMNIFICATION
+
+Licensee shall defend, indemnify, and hold harmless Biosero, its Affiliates,
+and their respective officers, directors, employees, contractors,
+successors, and assigns from and against all third-party claims, actions,
+proceedings, damages, judgments, settlements, penalties, liabilities, costs,
+and expenses, including reasonable attorneys' fees, arising out of or
+relating to: (a) any Extension developed, distributed, licensed, sold, or
+otherwise provided by or for Licensee; (b) Licensee's or its personnel's use
+of the Developer Materials or any Biosero Product in violation of this
+Agreement or applicable law; (c) any allegation that an Extension or
+Licensee data infringes, misappropriates, or otherwise violates any
+intellectual property, privacy, publicity, or other rights of a third party;
+or (d) Licensee's negligence, misconduct, or breach of this Agreement.
+Biosero may participate in the defense with counsel of its own choosing at
+its own expense, and Licensee shall not settle any claim in a manner that
+admits fault by or imposes obligations on Biosero without Biosero's prior
+written consent, not to be unreasonably withheld.
+
+12. TERM AND TERMINATION
+
+This Agreement begins on the date Licensee first accepts it or first
+downloads, installs, restores, accesses, or uses any Developer Materials,
+whichever occurs first, and continues until terminated (the "Term").
+
+Biosero may terminate this Agreement immediately upon written notice if
+Licensee breaches Section 2 or Section 3, misuses Biosero intellectual
+property, breaches the confidentiality obligations in Section 6, engages in
+competitive misuse, circumvention, unauthorized distribution, or other
+material misuse of the Developer Materials, or if continued performance
+would cause Biosero to violate law. For any other breach, Biosero may
+terminate this Agreement if Licensee fails to cure such breach within ten
+(10) days after receiving written notice. Licensee may terminate this
+Agreement at any time by ceasing all use of the Developer Materials and
+destroying all copies of the Developer Materials and Biosero Confidential
+Information in its possession or control.
+
+Upon any expiration or termination of this Agreement, all rights granted to
+Licensee immediately cease, and Licensee shall immediately stop all use of
+the Developer Materials, stop all development and distribution of
+Extensions, and promptly destroy or permanently delete all copies of the
+Packages (including copies on Internal Feeds), all other Developer Materials
+other than Published Documentation, and all Biosero Confidential
+Information, except for archival copies required by law. Termination does
+not affect the right of an Authorized Customer to continue using, under its
+own Biosero Product license, copies of an Extension that Licensee lawfully
+delivered to it before termination, unless that Extension itself breaches
+this Agreement or Biosero reasonably determines that its continued use
+creates a security, safety, or legal risk.
+
+Sections 1, 3, 4, 5(c), 5(d), 6, 7, 9, 10, 11, 12, and 13, and any other
+provisions that by their nature should survive, survive any expiration or
+termination of this Agreement.
+
+13. DISPUTE RESOLUTION, EQUITABLE RELIEF, AND GENERAL TERMS
+
+This Agreement is governed by the laws of the State of Delaware, without
+regard to its conflict of laws principles. Any dispute, claim, or
+controversy arising out of or relating to this Agreement, the Developer
+Materials, or the parties' relationship shall be finally resolved by binding
+arbitration administered by the American Arbitration Association in
+accordance with its Commercial Arbitration Rules. The place of arbitration
+shall be San Diego, California, and the arbitration shall be conducted in
+English by a single arbitrator unless the applicable rules require
+otherwise. Judgment on the award may be entered by any court of competent
+jurisdiction. Notwithstanding the foregoing, Biosero may seek temporary,
+preliminary, or permanent injunctive relief or other equitable relief in any
+court of competent jurisdiction, without the necessity of posting bond, to
+prevent or remedy any actual or threatened misuse of the Developer
+Materials, infringement or misappropriation of intellectual property, breach
+of license, breach of confidentiality, circumvention, or competitive misuse.
+
+Licensee may not assign, delegate, or transfer this Agreement or any rights
+or obligations under it, whether by operation of law, change of control,
+merger, sale of assets, or otherwise, without Biosero's prior written
+consent, which shall not be unreasonably withheld; any attempted assignment
+in violation of the foregoing is void. Biosero may assign this Agreement
+without restriction.
+
+Subject to the paragraph on signed agreements and Product Terms at the start
+of this Agreement, this Agreement constitutes the entire agreement between
+the parties with respect to the Developer Materials and supersedes all prior
+or contemporaneous understandings regarding its subject matter. Any
+additional or conflicting terms in any purchase order or other document
+provided by Licensee are void unless expressly agreed by Biosero in writing.
+If any provision of this Agreement is held unenforceable, the remaining
+provisions will remain in full force and effect, and the unenforceable
+provision will be enforced to the maximum extent permitted. No waiver of any
+breach will be deemed a waiver of any other breach.
+
+Notices to Biosero under this Agreement must be sent to Biosero, Inc., 4779
+Ruffner Street, San Diego, CA 92121, Attn: Legal Department. The parties are
+independent contractors, and this Agreement does not create any partnership,
+franchise, joint venture, fiduciary, or employment relationship.
