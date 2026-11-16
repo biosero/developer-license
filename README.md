@@ -31,6 +31,6 @@ This repository doesn't accept issues or pull requests from outside Biosero.
 For questions about the license, contact:
 
 Biosero, Inc.\
-4779 Ruffner Street\
-San Diego, CA 92121\
+4770 Ruffner Street\
+San Diego, CA 92111\
 Attn: Legal Department
